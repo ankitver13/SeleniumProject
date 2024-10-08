@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-26T21:13:16 IST" name="Suite" finished-at="2024-09-26T21:13:53 IST" duration-ms="37062">
+    <groups>
+    </groups>
+    <test started-at="2024-09-26T21:13:16 IST" name="Test1" finished-at="2024-09-26T21:13:52 IST" duration-ms="36434">
+      <class name="com.SeleniumGrid.ParallelTestOnGrid">
+        <test-method signature="testParallel(java.lang.String)[pri:0, instance:com.SeleniumGrid.ParallelTestOnGrid@194bcebf]" started-at="2024-09-26T21:13:16 IST" name="testParallel" finished-at="2024-09-26T21:13:52 IST" duration-ms="36345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParallel -->
+      </class> <!-- com.SeleniumGrid.ParallelTestOnGrid -->
+    </test> <!-- Test1 -->
+    <test started-at="2024-09-26T21:13:16 IST" name="Test3" finished-at="2024-09-26T21:13:52 IST" duration-ms="36275">
+      <class name="com.SeleniumGrid.ParallelTestOnGrid">
+        <test-method signature="testParallel(java.lang.String)[pri:0, instance:com.SeleniumGrid.ParallelTestOnGrid@6c1a5b54]" started-at="2024-09-26T21:13:16 IST" name="testParallel" finished-at="2024-09-26T21:13:52 IST" duration-ms="36178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParallel -->
+      </class> <!-- com.SeleniumGrid.ParallelTestOnGrid -->
+    </test> <!-- Test3 -->
+    <test started-at="2024-09-26T21:13:16 IST" name="Test2" finished-at="2024-09-26T21:13:53 IST" duration-ms="37062">
+      <class name="com.SeleniumGrid.ParallelTestOnGrid">
+        <test-method signature="testParallel(java.lang.String)[pri:0, instance:com.SeleniumGrid.ParallelTestOnGrid@13e344d]" started-at="2024-09-26T21:13:16 IST" name="testParallel" finished-at="2024-09-26T21:13:53 IST" duration-ms="36976" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParallel -->
+      </class> <!-- com.SeleniumGrid.ParallelTestOnGrid -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
